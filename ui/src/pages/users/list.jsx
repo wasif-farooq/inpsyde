@@ -1,7 +1,8 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
 import PropTypes from 'prop-types';
-import {withRouter} from 'react-router-dom';
-import ToolkitProvider, {ColumnToggle, Search} from 'react-bootstrap-table2-toolkit';
+import { withRouter } from 'react-router-dom';
+import ToolkitProvider, { ColumnToggle, Search } from 'react-bootstrap-table2-toolkit';
 import Grid from '../../components/grid';
 import { useSelector } from "react-redux";
 import actions from '../../actions';
@@ -74,15 +75,28 @@ const UsersList = props => {
 
 
     return (
-        <ToolkitProvider
-            keyField='id'
-            data={users}
-            columns={columns}
-            columnToggle
-            search
-        >
-            {props => <Grid {...props} rowEvents={{onClick}}/>}
-        </ToolkitProvider>
+        <Container fluid>
+            
+            <Row>
+                <Col>
+                    <h3 className="border-bottom py-2 mb-5">USERS</h3>
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <ToolkitProvider
+                        keyField='id'
+                        data={users}
+                        columns={columns}
+                        columnToggle
+                        search
+                    >
+                        {props => <Grid {...props} rowEvents={{ onClick }} />}
+                    </ToolkitProvider>
+                </Col>
+            </Row>
+        </Container>
+
     )
 }
 

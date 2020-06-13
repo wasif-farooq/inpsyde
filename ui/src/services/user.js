@@ -12,14 +12,14 @@ class UserService {
         }
 
         //this.uri = config.api.url + '/users';
-        this.uri = 'https://jsonplaceholder.typicode.com/users'
+        this.uri = 'http://jsonplaceholder.typicode.com/users'
         return UserService.instance;
     }
 
     list = async () => {
         try {
             const response = await http.get(this.uri);
-            return response.data;
+            return response;
         } catch (error) {
             throw (error.response || error.message);
         }
@@ -28,8 +28,7 @@ class UserService {
     get = async id => {
         try {
             const response = await http.get(`${this.uri}/${id}`);
-            console.log("response.data : ", response.data)
-            return response.data;
+            return response;
         } catch (error) {
             throw (error.response || error.message);
         }

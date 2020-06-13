@@ -2,6 +2,7 @@ import React, { Fragment, useState, useEffect } from 'react';
 import { withRouter } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import {
+    Container,
     Form,
     Row,
     Col,
@@ -31,10 +32,15 @@ const UsersDetail = props => {
 
 
     return (
-        <Fragment>
-            <Card as={Row}>
-                <Header>Personal Information</Header>
-                <Row>
+        <Container fluid>
+            <Row>
+                <Col>
+                    <h3 className="border-bottom py-2 mb-5">USER</h3>
+                </Col>
+            </Row>
+            <Card className="mb-3">
+                <Card.Body>
+                    <Card.Title>Personal Information</Card.Title>
                     <Group as={Col} md={3}>
                         <Label>Name : </Label>
                         <Control value={user.name} disabled />
@@ -59,11 +65,11 @@ const UsersDetail = props => {
                         <Label>Website : </Label>
                         <Control value={user.website} disabled />
                     </Group>
-                </Row>
+                </Card.Body>
             </Card>
-            <Card>
-                <Header>Address Information</Header>
-                <Row>
+            <Card className="mb-3">
+                <Card.Body>
+                    <Card.Title>Address Information</Card.Title>
                     <Group as={Col} md={3}>
                         <Label>City : </Label>
                         <Control value={user.address.city} disabled />
@@ -88,11 +94,12 @@ const UsersDetail = props => {
                         <Label>Longitude : </Label>
                         <Control value={user.address.geo.lng} disabled />
                     </Group>
-                </Row>
+                </Card.Body>
             </Card>
-            <Card>
-                <Header>Company Information</Header>
-                <Row>
+            <Card> 
+                <Card.Body>
+                    <Card.Title>Company Information</Card.Title>
+                    
                     <Group as={Col} md={3}>
                         <Label>Name : </Label>
                         <Control value={user.company.name} disabled />
@@ -105,9 +112,9 @@ const UsersDetail = props => {
                         <Label>BS : </Label>
                         <Control value={user.company.bs} disabled />
                     </Group>
-                </Row>
+                </Card.Body>
             </Card>
-        </Fragment>
+        </Container>
     )
 }
 

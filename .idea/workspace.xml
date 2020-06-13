@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f0d5ee4-b77d-4dbd-b36d-9e79f31c7762" name="Default Changelist" comment="" />
+    <list default="true" id="7f0d5ee4-b77d-4dbd-b36d-9e79f31c7762" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/ui/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/actions/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/actions/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/actions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/components/grid.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/components/grid.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/components/search-bar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/components/search-bar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/core/http.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/core/http.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/middlewares/common/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/middlewares/common/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/middlewares/common/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/middlewares/common/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/middlewares/common/notification.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/middlewares/common/notification.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/middlewares/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/middlewares/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/pages/users/detail.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/pages/users/detail.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/pages/users/list.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/pages/users/list.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/reducers/general.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/reducers/general.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/services/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/services/user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/src/utils/action-creator.js" beforeDir="false" afterPath="$PROJECT_DIR$/ui/src/utils/action-creator.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ui/yarn.lock" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,83 +40,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="525">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/pages/users/detail.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="14" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#61#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ui/src/middlewares/user.js">
+        <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#33#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/reducers/users.js">
+        <entry file="file://$PROJECT_DIR$/composer.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="268">
+              <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/pages/users/list.jsx">
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <element signature="e#0#49#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="270">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/middlewares/index.js">
+        <entry file="file://$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+            <state relative-caret-position="192">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#0#50#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/middlewares/users.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ui/src/services/user.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -110,6 +93,12 @@
       <find>USER_GET_SUCCESS</find>
       <find>Pizza</find>
       <find>config</find>
+      <find>Promise</find>
+      <find>&lt;search</find>
+      <find>networ</find>
+      <find>local</find>
+      <find>network</find>
+      <find>TEMPLATE_DIRECTORY</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,10 +108,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ui/src/components/no-data-indicaton.jsx" />
-        <option value="$PROJECT_DIR$/ui/src/components/search-bar.jsx" />
         <option value="$PROJECT_DIR$/ui/src/components/column-item.jsx" />
-        <option value="$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx" />
-        <option value="$PROJECT_DIR$/ui/src/components/grid.jsx" />
         <option value="$PROJECT_DIR$/ui/src/constants.js" />
         <option value="$PROJECT_DIR$/ui/src/actions/index.js" />
         <option value="$PROJECT_DIR$/ui/src/store.js" />
@@ -135,9 +121,18 @@
         <option value="$PROJECT_DIR$/ui/src/reducers/general.js" />
         <option value="$PROJECT_DIR$/ui/src/pages/users/detail.jsx" />
         <option value="$PROJECT_DIR$/ui/src/reducers/users.js" />
-        <option value="$PROJECT_DIR$/ui/src/services/user.js" />
         <option value="$PROJECT_DIR$/ui/src/middlewares/index.js" />
         <option value="$PROJECT_DIR$/ui/src/middlewares/user.js" />
+        <option value="$PROJECT_DIR$/ui/src/core/http.js" />
+        <option value="$PROJECT_DIR$/ui/src/services/user.js" />
+        <option value="$PROJECT_DIR$/ui/src/components/search-bar.jsx" />
+        <option value="$PROJECT_DIR$/ui/src/components/grid.jsx" />
+        <option value="$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/view.php" />
+        <option value="$PROJECT_DIR$/templates/index.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -165,60 +160,6 @@
               <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
               <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="actions" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="middlewares" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="users" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
-              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
-              <item name="ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="services" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -227,8 +168,9 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../clipboard" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -236,7 +178,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -261,18 +203,21 @@
       <option name="presentableId" value="Default" />
       <updated>1591330669325</updated>
       <workItem from="1591330671980" duration="22052000" />
-      <workItem from="1591416663366" duration="11389000" />
+      <workItem from="1591416663366" duration="12922000" />
+      <workItem from="1591534002264" duration="89000" />
+      <workItem from="1591801499599" duration="3145000" />
+      <workItem from="1592020354588" duration="10858000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33441000" />
+    <option name="totallyTimeSpent" value="49066000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1005" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25461456" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2703583" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -311,16 +256,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/components/search-bar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/components/column-item.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -331,50 +266,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/components/grid.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="16" column="48" selection-start-line="16" selection-start-column="48" selection-end-line="16" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/constants.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="9" column="35" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/core/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="11" column="47" selection-start-line="11" selection-start-column="47" selection-end-line="11" selection-end-column="47" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -422,26 +317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/middlewares/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/pages/users/list.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -468,10 +343,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ui/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/pages/users/detail.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/middlewares/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="10" column="95" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="95" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/core/http.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/reducers/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="432">
           <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/pages/users/list.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/middlewares/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui/src/middlewares/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="14" column="56" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
@@ -480,45 +429,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ui/src/services/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="30" column="14" selection-start-line="30" selection-start-column="14" selection-end-line="30" selection-end-column="14" />
+        <state relative-caret-position="1296">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/middlewares/index.js">
+    <entry file="file://$PROJECT_DIR$/ui/src/components/search-bar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        <state relative-caret-position="1248">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
           <folding>
-            <element signature="e#0#30#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/pages/users/detail.jsx">
+    <entry file="file://$PROJECT_DIR$/ui/src/components/grid.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="480">
+          <caret line="16" column="27" lean-forward="true" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
           <folding>
-            <element signature="e#0#61#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/.gitignore">
+    <entry file="file://$PROJECT_DIR$/ui/src/components/columns-toggler/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="192">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui/src/middlewares/user.js">
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#33#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="9" selection-start-column="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
         </state>
       </provider>
     </entry>

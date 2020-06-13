@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Form  } from 'react-bootstrap';
+import { Button, Form, InputGroup } from 'react-bootstrap';
 
 const SearchBar = props => {
 
@@ -14,19 +14,19 @@ const SearchBar = props => {
     }
 
     return (
-        <div>
+        <InputGroup className="mb-3">
             <Control
-                type="email"
+                type="text"
                 placeholder="Search"
                 onChange={onChange}
                 value={props.searchText}
             />
-            <Button
-                onClick={ clear }
-            >
-                <i>x</i>
-            </Button>
-        </div>
+            {props.searchText &&
+            <InputGroup.Append>
+                <Button variant="danger"  onClick={clear}>x</Button>
+            </InputGroup.Append>
+            }
+        </InputGroup>
     )
 }
 

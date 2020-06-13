@@ -1,0 +1,16 @@
+{
+    "name": "wordpress/inpsyde",
+    "description": "The is test assign teask plugin that enable a custom url to show a data in grid fro an api",
+    "type": "no",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Wasif Farooq",
+            "email": "wasif0332@gmail.com"
+        }
+    ],
+    "autoload": {
+        ""
+    },
+    "require": {}
+}

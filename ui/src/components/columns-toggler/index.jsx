@@ -14,7 +14,7 @@ const ColumnsToggler = props => {
 
     return (
         <Fragment>
-            <Button variant="default" onClick={toggle}>Customize</Button>
+            <Button variant="dark" onClick={toggle}>Customize</Button>
             <Modal
                 size="md"
                 show={open}
