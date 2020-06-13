@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f0d5ee4-b77d-4dbd-b36d-9e79f31c7762" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Plugin.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Interfaces/IPlugin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Plugin.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ilugin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,10 +29,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Plugin.php">
+        <entry file="file://$PROJECT_DIR$/src/Ilugin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+            <state relative-caret-position="48">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Interfaces/IPlugin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -125,7 +133,11 @@
         <option value="$PROJECT_DIR$/src/Inpsyde.php" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/Interface/iPlugin.php" />
         <option value="$PROJECT_DIR$/src/Plugin.php" />
+        <option value="$PROJECT_DIR$/src/Interface/IPlugin.php" />
+        <option value="$PROJECT_DIR$/src/Interfaces/IPlugin.php" />
+        <option value="$PROJECT_DIR$/src/Ilugin.php" />
       </list>
     </option>
   </component>
@@ -157,6 +169,12 @@
               <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
               <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inpsyde-task" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inpsyde-task" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,12 +222,12 @@
       <workItem from="1591416663366" duration="12922000" />
       <workItem from="1591534002264" duration="89000" />
       <workItem from="1591801499599" duration="3145000" />
-      <workItem from="1592020354588" duration="13717000" />
+      <workItem from="1592020354588" duration="14618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51925000" />
+    <option name="totallyTimeSpent" value="52826000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="34" width="1920" height="1005" extended-state="6" />
@@ -497,10 +515,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Plugin.php">
+    <entry file="file://$PROJECT_DIR$/src/Interfaces/IPlugin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+        <state relative-caret-position="48">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Ilugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

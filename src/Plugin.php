@@ -1,16 +1,29 @@
 <?php
 namespace Sonsor\Inpsyde;
 
-class Plugin
+use Sonsor\Inpsyde\Interfaces\IPlugin;
+
+class Plugin implements IPlugin
 {
 
+    /**
+     *
+     */
     const URI_PARAM = 'inpsyde';
 
+    /**
+     * @param string $hook
+     * @param $func
+     */
     public function action(string $hook, $func): void
     {
         add_action($hook, $func,);
     }
 
+    /**
+     * @param string $template
+     * @return string
+     */
     public function getTemplate( string $template ): string
     {
         return INPSYDE_TEMPLATE_DIRECTORY . DS . $template . '.php';
@@ -37,6 +50,10 @@ class Plugin
         return $variables;
     }
 
+    /**
+     * @param string $template
+     * @return string
+     */
     public function template( string $template ): string
     {
         if ( (bool) get_query_var( self::URI_PARAM ) !== true) {
@@ -46,6 +63,9 @@ class Plugin
         return $this->getTemplate('index');
     }
 
+    /**
+     *
+     */
     public function hook(): void
     {
         $this->action(
@@ -64,6 +84,9 @@ class Plugin
         );
     }
 
+    /**
+     *
+     */
     public static function main(): void
     {
         $inpsyde = new Plugin();
