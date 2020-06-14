@@ -7,7 +7,7 @@ import './App.css';
 const App = () => {
 
   return (
-    <Router>
+    <Router basename="inpsyde">
       <Navbar bg="dark" variant="dark" className="text-white">
         User Log
       </Navbar>
