@@ -1,0 +1,7 @@
+export const SHOW_LOADING = 'SHOW_LOADING'
+export const HIDE_LOADING = 'HIDE_LOADING'
+export const SET_USERS = 'SET_USERS'
+export const SET_USER = 'SET_USER'
+export const SET_COLUMNS = 'SET_COLUMNS'
+export const TOGGLE_COLUMN = 'TOGGLE_COLUMN'
+export const  SET_CURRENT_USER_ID = 'SET_CURRENT_USER_ID'
